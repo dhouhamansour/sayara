@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import FloatingLabel from 'react-bootstrap/FloatingLabel'
+import Footer from '../Footer/Footer'
 
 function ContactUs() {
     return (
@@ -71,7 +72,7 @@ function ContactUs() {
 </Form>
 
 
-
+<Footer/>
         </div>
     )
 }
